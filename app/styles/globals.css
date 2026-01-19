@@ -128,3 +128,8 @@ a {
   background-clip: text;
   text-fill-color: transparent;
 }
+
+/* Workflow Process の表示を強制的に消す */
+[class*="workflow-process"], [class*="ExecutionProcess"] {
+  display: none !important;
+}
